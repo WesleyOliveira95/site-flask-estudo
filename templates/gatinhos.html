@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gatinhos</title>
+</head>
+<body>
+  <main>
+          <h1>Foto de Gato</h1>
+      <section>
+          <h2>Os Gatinhos</h2>
+          <!-- TODO: Add link to cat photos -->
+          <p>Veja mais <a target="_blank" href="https://freecatphotoapp.com">foto de gatinhos</a> na nossa galeria.</p>
+          <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Um gatinho laranja deitado de costas."></a>
+      </section>
+
+      <section>
+          <h2>Tópicos Sobre Gatos</h2>
+          <h3>Coisas que os gatos amam:</h3>
+          <ul>
+              <li>leite</li>
+              <li>lasanha</li>
+              <li>ficar de boas</li>
+          </ul>
+          <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Uma fatia de lasanha em um prato.">
+          <figcaption>Gatos <em>amam</em> lasanha</figcaption>
+          </figure>
+          <h3>Top 3 coisas que os gatos odeiam:</h3>
+          <ol>
+              <li>Ratos</li>
+              <li>Água</li>
+              <li>Um dono chato</li>
+          </ol>
+          <figure>
+              <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cinco gatinhos num gramado.">
+              <figcaption>Gatos <strong>odeiam</strong> outos gatos</figcaption>
+          </figure>
+      </section>
+      <section>
+          <h2>Tipos de gatos</h2>
+          <form action=https://freecatphotoapp.com/submit-cat-photo">
+              <fieldset>
+                  <legend>Seu gato é interno ou externo?</legend>
+                  <label><input type="radio" id="caseiro" name="caseiro-vagabundo" value="caseiro"> Caseiro</label>
+                  <label><input type="radio" id="vagabundo" name="caseiro-vagabundo" value="vagabundo"> Vagabundo</label>
+              </fieldset>
+              <fieldset>
+                  <legend>Qual a personalidade do seu gato?</legend>
+                  <input type="checkbox" id="amoroso" name="personalidade" value="amoroso"> <label for="amoroso">Amoroso</label>
+                  <input type="checkbox" id="preguiçoso" name="personalidade" value="preguiçoso"> <label for="preguiçoso">Preguiçoso</label>
+                  <input type="checkbox" id="bagunceiro" name="personalidade" value="bagunceiro"> <label for="bagunceiro">Bagunceiro</label>
+              </fieldset>
+              <input type="text" name="catphotourl" placeholder="URl foto de gato" required="">
+              <button type="submit">Enviar</button>
+          </form>
+      </section>
+
+  </main>
+</body>
+</html>
